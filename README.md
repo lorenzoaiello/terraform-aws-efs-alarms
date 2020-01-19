@@ -8,7 +8,7 @@ This Terraform module manages Cloudwatch Alarms for an Elastic File System. It d
 
 ## Alarms Created
 
-Alarms Always Created (default values can be overridden):
+Alarms Always Created:
 - Disk burst balance less than 100 GB
 - IO Percentage above 90%
 - Anomalous client connection count
